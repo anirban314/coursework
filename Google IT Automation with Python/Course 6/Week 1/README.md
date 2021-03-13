@@ -15,7 +15,7 @@ now, it does the following:
 - Resizes images to 128 x 128 pixels
 - Saves images as JPEG
 
-#### Commandline arguments, in order:
+#### Required commandline arguments, in order:
     1. Source Directory - path to directory containing source images
     2. Source Extension - extension of the images to be converted
     3. Destination Directory - path to directory to save converted images in
