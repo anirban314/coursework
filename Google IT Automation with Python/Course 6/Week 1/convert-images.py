@@ -57,4 +57,4 @@ def validate_destination_dir(destination_dir):
 	return True
 
 if __name__ == "__main__":
-		main()
+	main()
