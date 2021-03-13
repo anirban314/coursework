@@ -1,0 +1,7 @@
+Development has 4 employees
+Human Resources has 2 employees
+IT infrastructure has 4 employees
+Marketing has 2 employees
+Sales has 3 employees
+User Experience Research has 2 employees
+Vendor operations has 2 employees

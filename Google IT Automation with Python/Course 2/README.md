@@ -6,3 +6,4 @@ of the specialization.
 
 ### Scripts:
 final_log-analysis.py - dependencies accounted for, should work locally
+week2_employee-count.py - dependencies accounted for, should work locally
