@@ -1,4 +1,4 @@
-## coursework
+# Coursework
 Repo containing course-related projects/scripts
 
 This is my collection of all the various scripts, programs, projects
