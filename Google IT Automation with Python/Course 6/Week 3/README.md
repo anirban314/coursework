@@ -1,11 +1,11 @@
 ## Automatic Output Generation
 ### Course 6, Week 3
 
-This script script is, once again, my own implementation of the solution
-and is **overkill** for the purpose of finishing the assignment. However,
-this script **has no dependencies** except that you have to provide your
-own values for the `email_details` dictionary which contains the
-parameters required for sending the email.
+This script is, once again, my own implementation of the solution and is
+**overkill** for the purpose of finishing the assignment. However, this
+script **has no dependencies** except that you have to provide your own
+values for the `email_details` dictionary which contains the parameters
+required for sending the email.
 
 	# at line 25
 	email_details = {
