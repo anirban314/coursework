@@ -1,3 +1,2 @@
-#Google IT Automation with Python
-#Professional Certificate
-##Coursera
+## Google IT Automation with Python Professional Certificate
+### Coursera
