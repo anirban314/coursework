@@ -1,9 +1,9 @@
 # Coursework
 Repo containing course-related projects/scripts
 
-This is my collection of all the various scripts, programs, projects
-I created as part of the various online courses I have pusued or will
-pursue in the near future.
+This is my collection of all the scripts, programs, projects I wrote
+as part of the various online courses I have pusued or will pursue in
+the future.
 
 PLEASE NOTE: Most of these scripts will NOT run directly on your local
 machine without the modification of certain variables within the
