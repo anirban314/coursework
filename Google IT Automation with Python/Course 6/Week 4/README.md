@@ -10,33 +10,33 @@ instructions asked us to approach the solutuion, not to mention the
 confusing naming scheme.
 
 #### What each of the scripts is:
-	`convert-images_and-post.py`: Combination of _changeImage.py_ and
-	_supplier\_image\_upload.py_ in the Qwiklabs  
-	**Dependencies:**  
-	- TIFF images in `supplier-data/images/` folder  
-	- _Webservice_ to upload the converted images to  
+`convert-images_and-post.py`: Combination of _changeImage.py_ and
+_supplier\_image\_upload.py_ in the Qwiklabs  
+**Dependencies:**  
+- TIFF images in `supplier-data/images/` folder  
+- _Webservice_ to upload the converted images to  
 
-	`read-descriptions_and-post.py`: Same as the _run.py_ script in the
-	Qwiklabs assignment  
-	**Dependencies:**  
-	- TXT files in `supplier-data/descriptions/` folder  
-	- _Webservice_ to upload the descriptions to  
+`read-descriptions_and-post.py`: Same as the _run.py_ script in the
+Qwiklabs assignment  
+**Dependencies:**  
+- TXT files in `supplier-data/descriptions/` folder  
+- _Webservice_ to upload the descriptions to  
 
-	`generate-pdf_and-email.py`: Combination of the _report-email.py_
-	and _reports.py_ script	in the Qwiklabs  
-	**Dependencies:**  
-	- TXT files in `supplier-data/descriptions/` folder  
-	- _emails.py_ imported as a module  
+`generate-pdf_and-email.py`: Combination of the _report-email.py_
+and _reports.py_ script	in the Qwiklabs  
+**Dependencies:**  
+- TXT files in `supplier-data/descriptions/` folder  
+- _emails.py_ imported as a module  
 
-	`health-check_and-email.py`: Same as the _health_check.py_ script
-	in the Qwiklabs assignment  
-	**Dependencies:**  
-	- _emails.py_ imported as a module  
+`health-check_and-email.py`: Same as the _health_check.py_ script
+in the Qwiklabs assignment  
+**Dependencies:**  
+- _emails.py_ imported as a module  
 
-	`emails.py`: Same as the _emails.py_ script in the Qwiklabs
-	assignment  
-	**Dependencies:**  
-	- _Mailserver_ to use to send emails  
+`emails.py`: Same as the _emails.py_ script in the Qwiklabs
+assignment  
+**Dependencies:**  
+- _Mailserver_ to use to send emails  
 
 
 #### These scripts are meant to be executed in the following order:
