@@ -28,7 +28,7 @@ def encode_txt(img_array, txt_array):
 	img_array = img_array.flatten()
 	prime_pixels = get_prime_pixels(img_array.shape[0])
 
-	print("\nEmbedding text into image...", end=' ')  #verbose
+	print("Embedding text into prime-numbered pixels in image...", end=' ')  #verbose
 	for pixel, char in zip(prime_pixels, txt_array):
 		img_array[pixel] = ord(char)
 	img_array = img_array.reshape(org_shape)
@@ -45,13 +45,13 @@ def get_prime_pixels(limit):
 				return False
 		return True
 	
-	print("\nCalculating maximum characters that can be embedded in image...")  #verbose
+	print("Calculating no. of prime-numbered pixels in the image...")  #verbose
 	prime_pixels = []
 	for num in range(1783, limit, 2):
 		if is_prime(num):
 			prime_pixels.append(num)
 	
-	print(f"{len(prime_pixels)} characters can be embedded in the given image")  #verbose
+	print(f"Image has {len(prime_pixels)} prime-numbered pixels...")  #verbose
 	return prime_pixels
 
 
