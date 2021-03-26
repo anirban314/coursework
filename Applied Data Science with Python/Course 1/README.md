@@ -17,4 +17,4 @@ Embeds the United States Constitution into the famous Abraham Lincoln
 
 The cypher for the above two scripts is simple: put every character in
 the US constitution in every prime numbered pixel of the image, starting
-from pixel number 1783 (the year the Revolutionary War ended).  
+from pixel number 1787 (the year the Constitution was signed).  
