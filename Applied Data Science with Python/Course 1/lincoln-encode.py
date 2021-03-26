@@ -5,7 +5,7 @@
 # Embeds the United States Constitution into the famous
 # Abraham Lincoln "cracked glass plate" photograph.
 # Cypher: put every character in the text in every prime
-# numbered pixel of the image, starting from pixel 1783 
+# numbered pixel of the image, starting from pixel 1787
 
 
 import math
@@ -47,7 +47,7 @@ def get_prime_pixels(limit):
 	
 	print("Calculating no. of prime-numbered pixels in the image...")  #verbose
 	prime_pixels = []
-	for num in range(1783, limit, 2):
+	for num in range(1787, limit, 2):
 		if is_prime(num):
 			prime_pixels.append(num)
 	
