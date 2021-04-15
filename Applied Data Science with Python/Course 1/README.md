@@ -13,7 +13,9 @@ two scripts are my first attempts at doing just that.
 Embeds the United States Constitution into the famous Abraham Lincoln
 "cracked glass plate" photograph.  
 
-- **lincoln-decode.py** - WIP
+- **lincoln-decode.py** - dependencies accounted for, should work locally
+Extracts the United States Constitution from the famous Abraham Lincoln
+"cracked glass plate" photograph. Basically, reversing the encoding.  
 
 The cypher for the above two scripts is simple: put every character in
 the US constitution in every prime numbered pixel of the image, starting
