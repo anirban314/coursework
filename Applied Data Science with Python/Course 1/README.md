@@ -6,6 +6,15 @@ in the first course of this specialization.
 
 ### Scripts:
 
+- **big4-finale.py** - dependencies accounted for, should work locally  
+This is the script for the final assignment of this course (for the
+first 4 questions only). PLEASE NOTE: To abide by Coursera Honor Code,
+I have heavily modified the code before releasing on Github. As such,
+it will not make the auto-grader love you, if directly copied into the
+lab notebook. I have also added an extra functionality to print the
+best and worst cities, in terms of percentage of games won, for each
+sport.  
+
 - **demo-p-value.py** - has no dependencies, should work locally  
 A demo of the unreliability of p-values and how easy it is to generate
 datasets with statistically significant difference using random numbers.  
