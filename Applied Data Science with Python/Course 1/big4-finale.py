@@ -21,7 +21,7 @@ def main():
 		teams = get_teams(sport, year)
 		merged = get_merged(sport, cities, teams)
 
-		r, p = correlation(merged['population'], merged['W%'])
+		r, p = stats.pearsonr(merged['population'], merged['W%'])
 		print(f"League: {sport}\n\tr-value = {round(r,4)}\n\tp-value = {round(p,4)}\n")
 
 		best = merged.iloc[0]
@@ -81,10 +81,6 @@ def get_merged(sport, cities, teams):
 	merged = merged.groupby('metro').agg({'W%': np.nanmean, 'population': np.nanmean})
 	merged = merged.sort_values(by='W%', ascending=False)
 	return merged.dropna()
-
-
-def correlation(pop_est, win_ratio):
-	return stats.pearsonr(pop_est, win_ratio)
 
 
 if __name__ == '__main__':
