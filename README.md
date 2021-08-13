@@ -1,9 +1,8 @@
 # Coursework
-Repo containing course-related projects/scripts:-
+### My Python learning journey
 
 This is my collection of all the scripts, programs, projects I worked
-on as part of the various online courses I have pursued. This repo is
-**entirely PYTHON**.
+on as part of the various online courses I have pursued.
 
 **Note**: Most of these scripts will NOT run directly on your local
 machine without the modification of certain variables within the
