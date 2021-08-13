@@ -1,11 +1,11 @@
 # Coursework
-Repo containing course-related projects/scripts
+Repo containing course-related projects/scripts:-
 
-This is my collection of all the scripts, programs, projects I wrote
-as part of the various online courses I have pusued or will pursue in
-the future.
+This is my collection of all the scripts, programs, projects I worked
+on as part of the various online courses I have pursued. This repo is
+**entirely PYTHON**.
 
-PLEASE NOTE: Most of these scripts will NOT run directly on your local
+**Note**: Most of these scripts will NOT run directly on your local
 machine without the modification of certain variables within the
 scripts. This is because those variables contained values specific to
 the environment they were intended to run on to complete the assignments.
